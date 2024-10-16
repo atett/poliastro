@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "poliastro-test"
+version = "0.1.0"
+description = "Familiarity and testing of poliastro and its capabilities"
+authors = ["Adam Tett"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+poliastro = "^0.17.0"
+simpy = "^4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
